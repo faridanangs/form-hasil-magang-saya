@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.form-container {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 3px;
+  width: 300px;
+  height: 300px;
+  background: #9b9b9b10;
+}
+
+.form-container h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.form-content .label-content {
+  display: flex;
+  justify-content: center;
+  border-bottom: 0.6px solid black;
+  width: 90%;
+  align-items: center;
+  gap: 10px;
+  padding-bottom: 1px;
+  margin-bottom: 10px;
+}
+
+.form-content .label-content input {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 5px 0;
+  width: 90%;
+  font-size: 15px;
+  text-align: start;
+}
+
+.form-content .label-content input::placeholder {
+  font-weight: bold;
+  opacity: 0.9;
+}
+
+.form-content .label-content i {
+    font-size: 19px;
+}
+.form-content .label-content .fa-eye-slash{
+    font-size: 14px;
+    
+}
+.form-content .btn {
+  width: 90%;
+  padding: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 2px;
+  cursor: pointer;
+}
+
+.form-content .forgot {
+  font-style: normal;
+  font-size: 10px;
+  text-align: left;
+  width: 90%;
+  padding-left: 1px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.divider {
+  margin: 15px 0;
+  display: flex;
+  align-items: center;
+  height: 10px;
+  width: 100%;
+  gap: 10px;
+  justify-content: center;
+}
+
+.divider h1 {
+  font-size: 10px;
+  padding: 0;
+  margin: 0;
+  opacity: 0.8;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  flex: 1;
+  opacity: 0.5;
+  height: 2px;
+  width: 100px;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.third-party{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-party div{
+    padding: 0 4px;
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    justify-content: center;
+    max-width: 90px;
+    cursor: pointer;
+    min-width: 90px;
+}
+.third-party div i{
+    font-size: 15px;
+}
+.third-party div h1{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+
+.form-content .create-acount{
+    display: flex;
+    font-size: 11px;
+    align-items: center;
+    margin-top: 40px;
+    gap: 4px;
+    width: 100%;
+    color: rgba(255, 0, 0, 0.677);
+    text-align: left;
+}
+    .form-content .create-acount a{
+        color: rgb(42, 41, 41);
+        font-size: 12px;
+    }
